@@ -2,12 +2,12 @@ var desobediência = 0;
 //1 – Crie uma função que retorna a string “Olá, ” concatenada com um argumento text (a ser passado para a função) e com ponto de exclamação “!” no final.
 function returnString(text)
 {
-  console.log(`olá, ${text} !`);
+  Console.log(`olá, ${text} !`);
 }
-//2 – Crie uma função que dado dois valores e uma Callback (passados como parâmetros), mostre no console a soma, subtração, multiplicação ou divisão desses valores, dependendo da função Callabck.
+//2 – Crie uma função que dado dois valores e uma Callback (passados como parâmetros), mostre no Console a soma, subtração, multiplicação ou divisão desses valores, dependendo da função Callabck.
 function operacao(n1, n2, callback)
 {
-  console.log(callback(n1, n2))
+  Console.log(callback(n1, n2))
 }
 operacao(24, 71, function(n1, n2)
 {
@@ -35,86 +35,86 @@ var domCobb = nolan(9, function(n1, n2)
 }
 )
 //4 – Crie uma função que recebe um número (de 1 a 12) e retorne o mês correspondente como uma string. Por exemplo, se a entrada for 2, a função deverá retornar “fevereiro”, pois este é o 2° mês.
-console.log("Insira o número do seu mês favorito")
+Console.log("Insira o número do seu mês favorito")
 function mêsEquivalente(mês = readline())
   {
     switch(mês)
     {    
       case 1:
       {
-        console.log("Seu mês favorito é Janeiro!");
+        Console.log("Seu mês favorito é Janeiro!");
         break;
       }      
       case 2:
       {        
-        console.log("Seu mês favorito é Fevereiro!");
+        Console.log("Seu mês favorito é Fevereiro!");
         break;
       }      
       case 3:
       {        
-        console.log("Seu mês favorito é Março!");
+        Console.log("Seu mês favorito é Março!");
         break;
       }      
       case 4:
       {        
-        console.log("Seu mês favorito é Abril!");
+        Console.log("Seu mês favorito é Abril!");
         break;
       }      
       case 5:
       {        
-        console.log("Seu mês favorito é Maio!");
+        Console.log("Seu mês favorito é Maio!");
         break;
       }      
       case 6:
       {        
-        console.log("Seu mês favorito é Junho!");
+        Console.log("Seu mês favorito é Junho!");
         break;
       }      
       case 7:
       {        
-        console.log("Seu mês favorito é Julho!");
+        Console.log("Seu mês favorito é Julho!");
         break;
       }      
       case 8:
       {        
-        console.log("Seu mês favorito é Agosto!");
+        Console.log("Seu mês favorito é Agosto!");
         break;
       }      
       case 9:
       {        
-        console.log("Seu mês favorito é Setembro!");
+        Console.log("Seu mês favorito é Setembro!");
         break;
       }      
       case 10:
       {        
-        console.log("Seu mês favorito é Outubro!");
+        Console.log("Seu mês favorito é Outubro!");
         break;
       }      
       case 11:
       {        
-        console.log("Seu mês favorito é Novembro!");
+        Console.log("Seu mês favorito é Novembro!");
         break;
       }      
       case 12:
       {        
-        console.log("Seu mês favorito é Dezembro!");
+        Console.log("Seu mês favorito é Dezembro!");
         break;
       }
       default:
-      console.log("Parece que você não tem um mês favorito :^(");
+      Console.log("Parece que você não tem um mês favorito :^(");
       var desobediência +=1;
     }
   }
 //5 – Crie uma função que receba dois números e retorne se o primeiro é maior ou igual ao segundo dependendo da função Callback.
 function maiorOuMenor(n1, n2, callback)
 {
-  console.log(callback(n1, n2));
+  Console.log(callback(n1, n2));
 }
 maiorOuMenor(function(n1, n2)
 {
-  console.log("Insira dois números, por favor. O primeiro deve ser maior que o segundo")
-  n1 = console.readline();
-  n2 = console.readline();
+  Console.log("Insira dois números, por favor. O primeiro deve ser maior que o segundo")
+  n1 = Console.readline();
+  n2 = Console.readline();
   if(n1>n2)
   {
     return n1;
@@ -123,13 +123,14 @@ maiorOuMenor(function(n1, n2)
   {
     if(var desobediência == 0)
     {
-      console.log("Aparentemente você não fez o que foi pedido :^(")
+      Console.log("Aparentemente você não fez o que foi pedido :^(")
     }
     if(var desobediência == 1)
     {
-      console.log("Você não fez o que foi pedido e não me disse o seu mês favorito ;^(")
+      Console.log("Você não fez o que foi pedido e não me disse o seu mês favorito ;^(")
     }
   }
 }
 )
 Console.log("Notinha por favor, Jerso")
+
